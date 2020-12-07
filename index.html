@@ -14,7 +14,7 @@
     
     <title>Home</title>
 </head>
-<body>
+<body>  
   <header>
     
        
@@ -47,6 +47,8 @@
 
 <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
 <button id="projects">View Projects</button>
+
+
 
 </div>
   
@@ -104,6 +106,10 @@ VANTA.NET({
   color: 0xe8008b
 })
 */
+$('h1').click(function(){
+  window.open("https://github.com/Crytios")
+});
+
   </script>
   <script>
     const nav = document.querySelector('#nav');
@@ -122,7 +128,7 @@ window.addEventListener('scroll', fixedNav);
   </script>
   <script>
     // function([string1, string2],target id,[color1,color2])    
- consoleText(['My name is Rachit Upadhyay a.k.a Crytios. Look Around!!'], 'text',['#2af598']);
+ consoleText(['My name ... aka Crytios. Look Around!!'], 'text',['#2af598']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
