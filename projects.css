@@ -144,12 +144,22 @@ background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
     color: whitesmoke;
 }
 .ide h1 {
-  transform: translate(29%,30%);
+  transform: translate(27%,30%);
     
 }
 
 
 .ide p {
   font-size: 25px;
-  transform: translate(17%,200%);
+  transform: translate(27%,200%);
+}
+.links1 {
+    color: black;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    border: none;
+    font-size: 25px;
+    width: 100px;
+    transform: translate(140%,400%);
+    outline: none
 }
