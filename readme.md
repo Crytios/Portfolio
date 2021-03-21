@@ -1,5 +1,5 @@
 # PersonalWebsite
-[![Build Status](https://badges.netlify.com/api/site-name.svg?branch=master)](https://app.netlify.com/sites/crytios/deploys)
+[![Build Status](https://badges.netlify.com/api/crytios.svg?branch=master)](https://app.netlify.com/sites/crytios/deploys)
 
 Visit my website here : <a>https://crytios.netlify.app</a>
 
