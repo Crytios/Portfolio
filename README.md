@@ -5,7 +5,7 @@
         <br><br>
 Visit my website here : <a>https://crytios.netlify.app</a>
 
-My personal website - Find Everything about me here.
+My personal website - Find Everything about me here(More like Nothing).
 
 The site uses Bootstrap and Ajax framework. There is only one file names index.html. All static files are hosted in <a href="https://netlify.com/">Netlify</a>.
 
