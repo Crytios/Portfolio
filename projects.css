@@ -1,3 +1,4 @@
+  
 .container{
     width: 80%;
     margin: 0 auto;
@@ -76,12 +77,10 @@ nav a:hover {
     background:  rgb(255, 0, 0);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; 
-    border-bottom: #fc5e03 solid 2px;
+    
     
 }
-nav a:active{
-    border-bottom: #ffffff solid 4px;
-}
+
 body {
     overflow-x: hidden;
   
@@ -106,7 +105,7 @@ background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
       width: 30%;
       height: 300px;
       border-radius: 20px;
-      font-family: 'Lato';
+      font-famil: 'Lato';
       color: whitesmoke;
   }
   .stopwatch h1 {
@@ -168,3 +167,123 @@ background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
     background-color: black;
     color: wheat;
 }
+.ide {
+    z-index: 2;
+    background-color: #a40606;
+    background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+
+    transform: translate(200%, -256%);
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+    font-family: 'Lato';
+    color: whitesmoke;
+}
+.ide h1 {
+    transform: translate(27%, 30%);
+
+}
+
+
+.ide p {
+    font-size: 25px;
+    transform: translate(27%, 200%);
+}
+.links1 {
+    color: black;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    border: none;
+    font-size: 25px;
+    width: 100px;
+    transform: translate(140%, 400%);
+    outline: none;
+
+}
+.links1:hover {
+    background-color: black;
+    color: wheat;
+}
+
+.api1{
+    z-index: 2;
+    background-color: #a40606;
+    background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+
+    transform: translate(50%, -200%);
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+    font-family: 'Lato';
+    color: whitesmoke;
+}
+.api1 h1 {
+    transform: translate(10%, 100%);
+
+}
+
+
+.api1 p {
+    font-size: 25px;
+    transform: translate(5%, 100%);
+}
+.links2 {
+    color: black;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    border: none;
+    font-size: 25px;
+    width: 100px;
+    transform: translate(100%, 300%);
+    outline: none;
+
+}
+.links2:hover {
+    background-color: black;
+    color: wheat;
+}
+/* .nav.scrolled {
+    background-color: #000000 !important;
+    transition: background-color 200ms linear;
+} */
+.todo {
+    z-index: 2;
+    background-color: #a40606;
+    background-image: linear-gradient(315deg, #a40606 0%, #d98324 74%);
+
+    transform: translate(200%, -305%);
+    width: 30%;
+    height: 300px;
+    border-radius: 20px;
+    font-family: 'Lato';
+    color: whitesmoke;
+}
+.todo h1 {
+    transform: translate(30%, 100%);
+
+}
+
+
+.todo p {
+    font-size: 25px;
+    transform: translate(5%, 100%);
+}
+.links3 {
+    color: black;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    border: none;
+    font-size: 25px;
+    width: 100px;
+    transform: translate(100%, 300%);
+    outline: none;
+
+}
+.links3:hover {
+    background-color: black;
+    color: wheat;
+}
+
+
+
+

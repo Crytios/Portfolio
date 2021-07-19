@@ -64,7 +64,7 @@ nav a{
     position: relative;
     font-size: x-large;
     /*background: linear-gradient(315deg, #20bf55 0%, #01baef 74%);*/
-    background: linear-gradient(90deg, rgb(197, 4, 129) 0%, rgba(251,1,1,1) 49%, rgb(194, 4, 137) 100%);
+    background: linear-gradient(to right, #ec008c, #fc6767);
     
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; 
@@ -76,12 +76,12 @@ nav a:hover {
     background:  rgb(255, 0, 0);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text; 
-    border-bottom: #fc5e03 solid 2px;
+    /* border-bottom: #fc5e03 solid 2px; */
     
 }
-nav a:active{
+/* nav a:active{
     border-bottom: #ffffff solid 4px;
-}
+} */
 body {
     overflow-x: hidden;
   
@@ -115,7 +115,8 @@ body {
 
   #projects {
        
-    background: linear-gradient(90deg, rgb(197, 4, 129) 0%, rgba(251,1,1,1) 49%, rgb(194, 4, 137) 100%);
+background-image : linear-gradient(180deg, #2af598 0%, #009efd 100%);
+
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     font-family: 'Lato';
@@ -127,7 +128,7 @@ body {
     border-radius: 6px;
     
     font-size: 31px;
-    transition: all 0.5s ease ;
+    transition: all 2s ease-in ;
     z-index: auto;
     margin-top: 300px;
     z-index: 2;
@@ -136,7 +137,9 @@ body {
   #projects:hover {
    
     
-    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    /* background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%); */
+background-image : linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
   }
@@ -145,4 +148,11 @@ body {
       display: inline-block;
       justify-content: space-evenly;
       z-index: 1;
+  }
+  #vant{
+      position:relative;
+      top:0;
+      height: 100vh;
+      overflow-y: hidden;
+      overflow: hidden;
   }

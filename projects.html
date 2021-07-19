@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,6 +58,18 @@
           <button class="links1" onclick="window.open('https://runt1m3-t3rr0r.netlify.app/')">Demo</button>
           <button class="links1" onclick="window.open('https://github.com/Crytios/IDE')">Code</button>
         </div>
+         <div class="api1">
+        <h1> FlightBooking Rest Api</h1>
+        <p>A FlightBooking REST API made using Spring Boot</p>
+          <button class="links2" onclick="window.open('https://sbrest.org/  com')">Demo</button>
+          <button class="links2" onclick="window.open('https://github.com/Crytios/FlightBookingMicroService')">Code</button>
+        </div>
+        <div class="todo">
+        <h1>TodoList</h1>
+        <p>A TodoList app With User Login made with Django</p>
+          <button class="links3" onclick="window.open('https://todo.com')">Demo</button>
+          <button class="links3" onclick="window.open('https://github.com/Crytios/djangotodo')">Code</button>
+        </div>
     
    
     
@@ -73,6 +87,12 @@
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
     <script>
+      $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".nav");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
     /*
     VANTA.RINGS({
       el: "#vant",
@@ -131,7 +151,7 @@
               });
           });
       </script>
-      <script>
+      <!-- <script>
         document.onkeydown = function(e) {
         if(event.keyCode == 123) {
         return false;
@@ -164,6 +184,6 @@
         return false;
         }
         }
-        </script>
+        </script> -->
 </body>
 </html>

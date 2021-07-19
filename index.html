@@ -9,12 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-
+    
 
     
     <title>Home</title>
 </head>
-<body>  
+<body>
   <header>
     
        
@@ -24,6 +24,7 @@
     
         
         <ul>
+          
         
            <li> <a class="active" href="index.html">Home</a> </li>
         <li> <a class="active" href="projects.html">Projects</a> </li>
@@ -46,9 +47,7 @@
   <canvas  height="720" id="van"></canvas>
 
 <div class='console-container'><span id='text'></span><div class='console-underscore' id='console'>&#95;</div></div>
-<button id="projects" "><a href="projects.html">View Projects</a></button>
-
-
+<button id="projects"><a href='projects.html'>View Projects</a></button>
 
 </div>
   
@@ -177,40 +176,6 @@ function consoleText(words, id, colors) {
           });
       });
   </script>
-  <script>
-    document.onkeydown = function(e) {
-    if(event.keyCode == 123) {
-    return false;
-    }
-    if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
-    return false;
-    }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)){
-    return false;
-    }
-    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)){
-    return false;
-    }
-    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)){
-    return false;
-    }
-    if(e.ctrlKey && e.keyCode == 'S'.charCodeAt(0)){
-    return false;
-    }
-    if(e.ctrlKey && e.keyCode == 'H'.charCodeAt(0)){
-    return false;
-    }
-    if(e.ctrlKey && e.keyCode == 'A'.charCodeAt(0)){
-    return false;
-    }
-    if(e.ctrlKey && e.keyCode == 'F'.charCodeAt(0)){
-    return false;
-    }
-    if(e.ctrlKey && e.keyCode == 'E'.charCodeAt(0)){
-    return false;
-    }
-    }
-    </script>
   
   
 </body>
