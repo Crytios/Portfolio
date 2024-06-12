@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        html { overflow-y: scroll; }
+
+        body{
+            overflow-y:auto;
+        }
+        @font-face{font-family:'Lato';src:url(../fonts/Lato/Lato-Medium.ttf)}@font-face{font-family:'Lato';src:url(../fonts/Lato/Lato-Bold.ttf)}@font-face{font-family:Lato-SemiBold;src:url(../fonts/Lato/Lato-SemiBold.ttf)}*{margin:0;padding:0;box-sizing:border-box}body,html{height:100%;font-family:Lato-Regular,sans-serif}a{font-family:Lato-Regular;font-size:14px;line-height:1.7;color:#666;margin:0;transition:all .4s;-webkit-transition:all .4s;-o-transition:all .4s;-moz-transition:all .4s}a:focus{outline:none!important}a:hover{text-decoration:none}h1,h2,h3,h4,h5,h6{margin:0}p{font-family:Lato-Regular;font-size:14px;line-height:1.7;color:#666;margin:0}ul,li{margin:0;list-style-type:none}input{outline:none;border:none}input[type=number]{-moz-appearance:textfield;appearance:none;-webkit-appearance:none}input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-spin-button{-webkit-appearance:none}textarea{outline:none;border:none}textarea:focus,input:focus{border-color:transparent!important}input:focus::-webkit-input-placeholder{color:transparent}input:focus:-moz-placeholder{color:transparent}input:focus::-moz-placeholder{color:transparent}input:focus:-ms-input-placeholder{color:transparent}textarea:focus::-webkit-input-placeholder{color:transparent}textarea:focus:-moz-placeholder{color:transparent}textarea:focus::-moz-placeholder{color:transparent}textarea:focus:-ms-input-placeholder{color:transparent}input::-webkit-input-placeholder{color:#999}input:-moz-placeholder{color:#999}input::-moz-placeholder{color:#999}input:-ms-input-placeholder{color:#999}textarea::-webkit-input-placeholder{color:#999}textarea:-moz-placeholder{color:#999}textarea::-moz-placeholder{color:#999}textarea:-ms-input-placeholder{color:#999}button{outline:none!important;border:none;background:0 0}button:hover{cursor:pointer}iframe{border:none!important}.container-contact100{width:100%;min-height:100vh;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;justify-content:center;align-items:center;padding:15px;background:0 0;position:relative;z-index:1}.contact100-map{position:absolute;z-index:-2;width:100%;height:100%;top:0;left:0}.wrap-contact100{width:670px;background:#fff;border-radius:10px;position:relative}.contact100-form-title{width:100%;position:relative;z-index:1;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;flex-direction:column;align-items:center;background-repeat:no-repeat;background-size:cover;background-position:center;padding:64px 15px}.contact100-form-title-1{font-family:Lato-Bold;font-size:20px;color:#fff;line-height:1.2;text-align:center;padding-bottom:7px}.contact100-form-title-2{font-family:Lato-Regular;font-size:15px;color:#fff;line-height:1.5;text-align:center}.contact100-form-title::before{content:"";display:block;position:absolute;z-index:-1;width:100%;height:100%;top:0;left:0;background-color:rgba(54,84,99,.7)}.contact100-form{width:100%;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;justify-content:space-between;padding:43px 88px 57px 190px}.wrap-input100{width:100%;position:relative;border-bottom:1px solid #b2b2b2;margin-bottom:26px}.label-input100{font-family:Lato-Regular;font-size:15px;color:gray;line-height:1.2;text-align:right;position:absolute;top:14px;left:-105px;width:80px}.input100{font-family:Lato-Regular;font-size:15px;color:#555;line-height:1.2;display:block;width:100%;background:0 0;padding:0 5px}.focus-input100{position:absolute;display:block;width:100%;height:100%;top:0;left:0;pointer-events:none}.focus-input100::before{content:"";display:block;position:absolute;bottom:-1px;left:0;width:0;height:1px;-webkit-transition:all .6s;-o-transition:all .6s;-moz-transition:all .6s;transition:all .6s;background:#57b846}input.input100{height:45px}textarea.input100{min-height:115px;padding-top:14px;padding-bottom:13px}.input100:focus+.focus-input100::before{width:100%}.has-val.input100+.focus-input100::before{width:100%}.container-contact100-form-btn{width:100%;display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;flex-wrap:wrap;padding-top:8px}.contact100-form-btn{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:-ms-flexbox;display:flex;justify-content:center;align-items:center;padding:0 20px;min-width:160px;height:50px;background-color:#57b846;border-radius:25px;font-family:Lato-Regular;font-size:16px;color:#fff;line-height:1.2;-webkit-transition:all .4s;-o-transition:all .4s;-moz-transition:all .4s;transition:all .4s}.contact100-form-btn i{-webkit-transition:all .4s;-o-transition:all .4s;-moz-transition:all .4s;transition:all .4s}.contact100-form-btn:hover{background-color:#333}.contact100-form-btn:hover i{-webkit-transform:translateX(10px);-moz-transform:translateX(10px);-ms-transform:translateX(10px);-o-transform:translateX(10px);transform:translateX(10px)}@media(max-width:576px){.contact100-form{padding:43px 15px 57px 117px}}@media(max-width:480px){.contact100-form{padding:43px 15px 57px}.label-input100{text-align:left;position:unset;top:unset;left:unset;width:100%;padding:0 5px}}.validate-input{position:relative}.alert-validate::before{content:attr(data-validate);position:absolute;max-width:70%;background-color:#fff;border:1px solid #c80000;border-radius:2px;padding:4px 25px 4px 10px;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%);right:2px;pointer-events:none;font-family:'Lato';color:#c80000;font-size:13px;line-height:1.4;text-align:left;visibility:hidden;opacity:0;-webkit-transition:opacity .4s;-o-transition:opacity .4s;-moz-transition:opacity .4s;transition:opacity .4s}.alert-validate::after{content:"\f06a";font-family:'Lato';display:block;position:absolute;color:#c80000;font-size:15px;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%);right:8px}.alert-validate:hover:before{visibility:visible;opacity:1}@media(max-width:992px){.alert-validate::before{visibility:visible;opacity:1}}
+        .wrap-contact100{
+            transform: translate(65%);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        header{
+    background: #000000;
+
+
+}
+  nav h1 {
+    float: right;
+    padding-right: 30px;
+    padding-bottom: 7px;
+
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Lato';
+ }
+ nav i {
+    float: right;
+    padding-right: 70px;
+    padding-bottom: 7px;
+    padding-top: 20px;
+    font-size:40px ;
+
+
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Lato';
+
+ }
+ body {
+    overflow: hidden;
+ }
+
+ nav i {
+    color:wheat
+ }
+
+
+nav {
+
+    width: 80%;
+
+
+
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Lato';
+}
+nav li {
+
+    margin:  0  70px;
+    padding-top: 20px;
+    font-family: 'Lato';
+    display: inline-block;
+    font-family: 'Lato';
+
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    font-size: x-large;
+    /*background: linear-gradient(315deg, #20bf55 0%, #01baef 74%);*/
+    background: linear-gradient(90deg, rgb(197, 4, 129) 0%, rgba(251,1,1,1) 49%, rgb(194, 4, 137) 100%);
+
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: all 0.6s linear;
+    height: 100%;
+    font-family: 'Lato';
+}
+nav a:hover {
+    background:  rgb(255, 0, 0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+
+}
+.lol{
+    background-color: none;
+    color: white;
+    background: black;
+    font-size: 70px;
+    padding-top: 200px;
+    padding-left: 800px;
+   
+}
+
+
+    </style>
+     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link rel="stylesheet" href="contact.css">
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</head>
+
+<body>
+    <header>
+
+
+        <div class="container1" id="ok">
+        <nav class="nav"  id="nav">
+          <i class="fab fa-artstation"></i> <h1>Crytios</h1>
+
+
+            <ul>
+
+               <li> <a class="active" href="index.html">Home</a> </li>
+            <li> <a class="active" href="https://www.github.com/Crytios" target="_blank">Projects</a> </li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li><a class="active" href="https://www.fiverr.com/crytios" target="_blank">Fiverr</a></li>
+
+
+        <ul/>
+    </nav>
+    </div>
+
+
+
+
+
+
+    </header>
+    <div class="lol">lol no</div>
+    <div id="vant" >
+        <canvas height="420" class="van"></canvas>
+ 
+       
+ 
+    </div>
+   <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.rings.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.dots.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<script>VANTA.RINGS({
+    el: "#vant",
+    mouseControls: true,
+    touchControls:true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    backgroundColor: 0x0,
+    color: 0x151b10
+  })</script>
+  <script>
+  $(document).ready(function() {
+      $("body").on("contextmenu", function(e) {
+          return false;
+        });
+    });
+</script>
+</body>
+</html>
